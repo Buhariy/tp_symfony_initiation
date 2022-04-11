@@ -15,7 +15,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class EmployesController extends AbstractController
 {
     /**
-     * @Route("/employes", name="app_employes")
+     * @Route("/", name="app_employes")
      */
     public function index(): Response
     {
